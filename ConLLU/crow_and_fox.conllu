@@ -9,7 +9,7 @@
 # text_en = Fable B.
 1	ܡܬܠܐ	ܡܲܬܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=fable
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	ܒ	ܒ	NUM	_	NumType=Card	1	appos	_	Gloss=B|NumForm=Letter
+3	ܒ	ܒ	NOUN	_	_	1	nmod	_	Gloss=B|NumForm=Letter
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 2
@@ -22,13 +22,14 @@
 # newpar
 # sent_id = 3
 # text = ܥܲܠ ܚܲܕ ܐܝܼܠܵܢܵܐ ܒܥܸܠܹܠ ܣܩܝܼܛܵܐ ܗܘܵܐ
-# text_en = Upon a tree in Ellel perched was
+# text_en = Upon a tree up high perched was
 1	ܥܲܠ	ܥܲܠ	ADP	_	_	3	case	_	Gloss=upon
-2	ܚܲܕ	ܚܲܕ	NUM	_	NumType=Card	3	nummod	_	Gloss=one
-3	ܐܝܼܠܵܢܵܐ	ܐܝܼܠܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	6	obl	_	Gloss=tree
-4	ܒܥܸܠܹܠ	ܥܸܠܹܠ	PROPN	_	_	3	nmod	_	Gloss=Ellel|SpaceAfter=No
-5	ܣܩܝܼܛܵܐ	ܣܩܝܼܛܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Part|Voice=Pass	0	root	_	Gloss=perched
-6	ܗܘܵܐ	ܗܘܵܐ	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	Gloss=was
+2	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|PronType=Art	3	det	_	Gloss=one
+3	ܐܝܼܠܵܢܵܐ	ܐܝܼܠܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	7	obl	_	Gloss=tree
+4	ܒ	ܒ	ADP	_	_	5	case	_	Gloss=in|SpaceAfter=No
+5	ܥܸܠܹܠ	ܥܸܠܹܠ	ADJ	_	_	7	advmod	_	Gloss=up_high
+6	ܣܩܝܼܛܵܐ	ܣܩܝܼܛܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Part|Voice=Pass	0	root	_	Gloss=perched
+7	ܗܘܵܐ	ܗܘܵܐ	AUX	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	6	cop	_	Gloss=was
 
 # sent_id = 4
 # text = ܪܵܒܝܼ ܩܲܪܓ݂ܵܐ ܘܦܘܼܡܹܗ ܓܘܼܒܬܵܐ
@@ -47,7 +48,7 @@
 3	ܬܲܥܠܵܐ	ܬܲܥܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	nsubj	_	Gloss=fox
 4	ܩܕܵܠܹܗ	ܩܕܵܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	5	obj	_	Gloss=his_neck
 5	ܦܘܼܫܛܵܐ	ܦܘܼܫܛܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Part|Voice=Pass	0	root	_	Gloss=stretched
-6	ܗ݇ܘܵܐ	ܗܘܵܐ	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	5	cop	_	Gloss=was
+6	ܗ݇ܘܵܐ	ܗܘܵܐ	AUX	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	5	cop	_	Gloss=was
 
 # sent_id = 6
 # text = ܘܓܲܫܘܼܩܹܐ ܡ݂ܢ ܕܘܼܟܬܹܗ ܟܘܼܦܬܵܐ
@@ -65,7 +66,7 @@
 2	ܕ	ܕ	ADP	_	_	4	case	_	Gloss=of
 3	ܗ̇ܝ	ܗ̇ܘ	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	Gloss=that
 4	ܓܘܼܒܬܵܐ	ܓܘܼܒܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph	1	nmod	_	Gloss=cheese
-5	ܡܚܹܠܹܗ	ܡܵܚܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=struck_him
+5	ܡܚܹܠܹܗ	ܡܵܚܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=struck_him
 6	ܒ	ܒ	ADP	_	_	7	case	_	Gloss=in|SpaceAfter=No
 7	ܢܲܚܝܼܪܹܗ	ܢܲܚܝܼܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	5	obl	_	Gloss=his_nose
 
@@ -73,9 +74,9 @@
 # text = ܘܩܸܡܠܹܗ ܘܐܲܬܸܠܹܗ ܬ݇ܚܘܿܬ ܐܝܼܠܵܢܵܐ
 # text_en = And he arose and came under the tree
 1	ܘ	ܘ	CCONJ	_	_	2	cc	_	Gloss=and
-2	ܩܸܡܠܹܗ	ܩܵܐܹܡ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_arose
+2	ܩܸܡܠܹܗ	ܩܵܐܹܡ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_arose
 3	ܘ	ܘ	CCONJ	_	_	4	cc	_	Gloss=and
-4	ܐܲܬܸܠܹܗ	ܐܵܬܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	conj	_	Gloss=he_came
+4	ܐܲܬܸܠܹܗ	ܐܵܬܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	2	conj	_	Gloss=he_came
 5	ܬ݇ܚܘܿܬ	ܬ݇ܚܘܿܬ	ADP	_	_	6	case	_	Gloss=under
 6	ܐܝܼܠܵܢܵܐ	ܐܝܼܠܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	obl	_	Gloss=tree
 
@@ -85,44 +86,44 @@
 1	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
 2	ܒ	ܒ	ADP	_	_	3	case	_	Gloss=with|SpaceAfter=No
 3	ܐܝܼܩܵܪܵܐ	ܐܝܼܩܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	obl	_	Gloss=respect
-4	ܟܠܹܐ	ܟܵܠܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_stopped
+4	ܟܠܹܐ	ܟܵܠܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_stopped
 5	ܠܹܗ	ܠ	ADP	_	Number[obj]=Sing|Person[obj]=3	4	obj	_	Gloss=him
 6	ܘ	ܘ	CCONJ	_	_	8	cc	_	Gloss=and
 7	ܒ	ܒ	ADP	_	_	8	case	_	Gloss=with|SpaceAfter=No
 8	ܢܲܟ݂ܦܘܼܬܵܐ	ܢܲܟ݂ܦܘܼܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph	9	obl	_	Gloss=humility
-9	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	4	conj	_	Gloss=he_said
+9	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	4	conj	_	Gloss=he_said
 10	:	:	PUNCT	_	_	4	punct	_	_
 
 # newpar = speech
 # sent_id = 10
 # text = ܫܠܵܡܵܐ ܥܲܠܘܼܟ݂ ܝܵܐ ܫܸܛܪܵܢܵܐ
-# text_en = Peace be upon you, Oh handsome
+# text_en = Peace be upon you, O handsome one
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	ܫܠܵܡܵܐ	ܫܠܵܡܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=peace
 3	ܥܲܠܘܼܟ݂	ܥܲܠ	ADP	_	Number[obj]=Sing|Person[obj]=2	2	nmod	_	Gloss=upon_you
-4	ܝܵܐ	ܝܵܐ	INTJ	_	_	5	discourse	_	Gloss=Oh
-5	ܫܸܛܪܵܢܵܐ	ܫܸܛܪܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	vocative	_	Gloss=handsome
+4	ܝܵܐ	ܝܵܐ	PART	_	_	5	advmod	_	Gloss=Oh
+5	ܫܸܛܪܵܢܵܐ	ܫܸܛܪܵܢܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	2	nmod	_	Gloss=handsome_one
 
 # sent_id = 11
 # text = ܟܡܵܐ ܫܲܦܝܼܪܵܐ ܝܘܸܬ ܝܵܐ ܪܵܒܝܼ ܩܲܪܓ݂ܵܐ
-# text_en = How beautiful you are, Oh Master Crow
+# text_en = How beautiful you are, O Master Crow
 1	ܟܡܵܐ	ܟܡܵܐ	ADV	_	PronType=Int	2	advmod	_	Gloss=how
 2	ܫܲܦܝܼܪܵܐ	ܫܲܦܝܼܪܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=beautiful
 3	ܝܘܸܬ	ܗܘܵܐ	AUX	_	Gender=Masc|Number=Sing|Person=2	2	cop	_	Gloss=you_are
-4	ܝܵܐ	ܝܵܐ	INTJ	_	_	6	discourse	_	Gloss=Oh
+4	ܝܵܐ	ܝܵܐ	PART	_	_	6	advmod	_	Gloss=Oh
 5	ܪܵܒܝܼ	ܪܲܒܝܼ	NOUN	_	Gender=Masc|Number=Sing|State=Cons	6	nmod	_	Gloss=master
-6	ܩܲܪܓ݂ܵܐ	ܩܲܪܓ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	vocative	_	Gloss=crow
+6	ܩܲܪܓ݂ܵܐ	ܩܲܪܓ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	nmod	_	Gloss=crow
 
 # sent_id = 12
 # text = ܘܟܡܵܐ ܚܸܠܝܵܐ ܝܘܸܬ ܘܟܡܵܐ ܠܵܚܘܿܡܵܐ
-# text_en = And how sweet you are and how distinguished
+# text_en = And how sweet you are and how fitting
 1	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
 2	ܟܡܵܐ	ܟܡܵܐ	ADV	_	PronType=Int	3	advmod	_	Gloss=how
 3	ܚܸܠܝܵܐ	ܚܸܠܝܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=sweet
 4	ܝܘܸܬ	ܗܘܵܐ	AUX	_	Gender=Masc|Number=Sing|Person=2	3	cop	_	Gloss=you_are
 5	ܘ	ܘ	CCONJ	_	_	7	cc	_	Gloss=and
 6	ܟܡܵܐ	ܟܡܵܐ	ADV	_	PronType=Int	7	advmod	_	Gloss=how
-7	ܠܵܚܘܿܡܵܐ	ܠܵܚܘܿܡܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	3	conj	_	Gloss=distinguished
+7	ܠܵܚܘܿܡܵܐ	ܠܵܚܘܿܡܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	3	conj	_	Gloss=fitting
 
 # sent_id = 13
 # text = ܗܹܐ ܥܸܠܵܝܵܐ ܝܘܸܬ ܒܫܘܼܦܪܵܐ ܐܵܦ ܒܕܲܪܓܵܐ
@@ -183,12 +184,12 @@
 9	ܝܠܹܗ	ܗܘܵܐ	AUX	_	Gender=Masc|Number=Sing|Person=3	7	cop	_	Gloss=is
 
 # sent_id = 18
-# text = ܗܲܡܸܢ ܠܚܲܒ݂ܪܝܼ ܟ̰ܸܡ ܫܲܪܝܼܪܵܐ.
+# text = ܗܲܡܸܢ ܠܚܲܒܪܝܼ ܟ̰ܸܡ ܫܲܪܝܼܪܵܐ.
 # text_en = Believe my friend most true.
 1	ܗܲܡܸܢ	ܗܲܡܸܢ	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Gloss=believe
 2	ܠ	ܠ	ADP	_	_	3	case	_	Gloss=to|SpaceAfter=No
-3	ܚܲܒ݂ܪܝܼ	ܚܲܒ݂ܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|State=Emph	1	obl	_	Gloss=my_friend
-4	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_	Degree=Sup	5	advmod	_	Gloss=most
+3	ܚܲܒܪܝܼ	ܚܲܒܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|State=Emph	1	obl	_	Gloss=my_friend
+4	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_		5	advmod	_	Gloss=most
 5	ܫܲܪܝܼܪܵܐ	ܫܲܪܝܼܪܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	1	xcomp	_	Gloss=true
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -200,19 +201,19 @@
 2	ܐܵܢ	ܐܵܢ	DET	_	Number=Plur|PronType=Dem	3	det	_	Gloss=these
 3	ܗܹܡܸܙܡܵܢܹ̈ܐ	ܗܹܡܸܙܡܵܢܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	5	obl	_	Gloss=words
 4	ܩܲܪܓ݂ܵܐ	ܩܲܪܓ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	nsubj	_	Gloss=crow
-5	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_	Degree=Sup	6	advmod	_	Gloss=greatly
-6	ܚܕܹܠܹܗ	ܚܵܕܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_rejoiced
+5	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_		6	advmod	_	Gloss=greatly
+6	ܚܕܹܠܹܗ	ܚܵܕܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_rejoiced
 
 # sent_id = 20
 # text = ܘܙܹܪܗ ܒܓܵܢܹܗ ܘܗܵܘܢܹܗ ܦܪܸܚܠܹܗ
 # text_en = And he was puffed up and his mind flew away
 1	ܘ	ܘ	CCONJ	_	_	2	cc	_	Gloss=and
-2	ܙܹܪܗ	ܙܵܪܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_puffed_up
+2	ܙܹܪܗ	ܙܵܪܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_puffed_up
 3	ܒ	ܒ	ADP	_	_	4	case	_	Gloss=in|SpaceAfter=No
 4	ܓܵܢܹܗ	ܓܵܢܵܐ	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	2	obl	_	Gloss=himself
 5	ܘ	ܘ	CCONJ	_	_	7	cc	_	Gloss=and
 6	ܗܵܘܢܹܗ	ܗܵܘܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	7	nsubj	_	Gloss=his_mind
-7	ܦܪܸܚܠܹܗ	ܦܵܪܹܚ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	2	conj	_	Gloss=flew_away
+7	ܦܪܸܚܠܹܗ	ܦܵܪܹܚ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	2	conj	_	Gloss=flew_away
 
 # sent_id = 21
 # text = ܘܕܡܲܫܡܸܥ ܗ݇ܘܵܐ ܠܬܲܥܠܵܐ ܕܚܸܠܝܵܐ ܝܠܸܗ ܩܵܠܹܗ
@@ -220,7 +221,7 @@
 1	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
 2	ܕ	ܕ	SCONJ	_	_	3	mark	_	Gloss=that|SpaceAfter=No
 3	ܡܲܫܡܸܥ	ܫܵܡܹܥ	VERB	_	VerbForm=Inf|Voice=Cau	0	root	_	Gloss=to_make_hear
-4	ܗ݇ܘܵܐ	ܗܘܵܐ	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	3	aux	_	Gloss=was
+4	ܗ݇ܘܵܐ	ܗܘܵܐ	AUX	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	3	aux	_	Gloss=was
 5	ܠ	ܠ	ADP	_	_	6	case	_	Gloss=to|SpaceAfter=No
 6	ܬܲܥܠܵܐ	ܬܲܥܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	obl	_	Gloss=fox
 7	ܕ	ܕ	SCONJ	_	_	9	mark	_	Gloss=that|SpaceAfter=No
@@ -235,27 +236,27 @@
 2	ܟܠܹܗ	ܟܠ	DET	_	Number[psor]=Sing|Person[psor]=3|PronType=Tot	3	det	_	Gloss=all_his
 3	ܚܲܝܠܹܗ	ܚܲܝܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	5	obl	_	Gloss=his_might
 4	ܦܘܼܡܹܗ	ܦܘܼܡܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	5	obj	_	Gloss=his_mouth
-5	ܦܬܸܚܠܹܗ	ܦܵܬܹܚ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_opened
+5	ܦܬܸܚܠܹܗ	ܦܵܬܹܚ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_opened
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # newpar
 # sent_id = 23
 # text = ܗܵܐ ܓܘܼܒܬܵܐ ܢܦܸܠܵܗ̇ ܘܬܲܥܠܲܐ ܦܲܢܕܵܢܵܐ
 # text_en = Behold the cheese fell and the fox the trickster
-1	ܗܵܐ	ܗܵܐ	INTJ	_	_	3	discourse	_	Gloss=behold
+1	ܗܵܐ	ܗܵܐ	PART	_	_	3	advmod	_	Gloss=behold
 2	ܓܘܼܒܬܵܐ	ܓܘܼܒܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph	3	nsubj	_	Gloss=cheese
-3	ܢܦܸܠܵܗ̇	ܢܵܦܹܠ	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	0	root	_	Gloss=it_fell
+3	ܢܦܸܠܵܗ̇	ܢܵܦܹܠ	VERB	_	Tense=Past|Gender=Fem|Number=Sing|Person=3	0	root	_	Gloss=it_fell
 4	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
 5	ܬܲܥܠܲܐ	ܬܲܥܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	conj	_	Gloss=fox
-6	ܦܲܢܕܵܢܵܐ	ܦܲܢܕܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	appos	_	Gloss=trickster
+6	ܦܲܢܕܵܢܵܐ	ܦܲܢܕܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	amod	_	Gloss=trickster
 
 # sent_id = 24
 # text = ܓܢܝܼܒ݂ܵܐ ܠܹܗ ܘܐ݇ܡܸܪܹܗ : ( ܗܵܘܢܵܢܵܐ
-# text_en = Snatched it and said: (Oh wise one
-1	ܓܢܝܼܒ݂ܵܐ	ܓܵܢܹܒ݂	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Gloss=he_snatched
+# text_en = Snatched it and said: (O wise one
+1	ܓܢܝܼܒ݂ܵܐ	ܓܵܢܹܒ݂	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Part	0	root	_	Gloss=he_snatched
 2	ܠܹܗ	ܠ	ADP	_	Number[obj]=Sing|Person[obj]=3	1	obj	_	Gloss=it
 3	ܘ	ܘ	CCONJ	_	_	4	cc	_	Gloss=and
-4	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	conj	_	Gloss=he_said
+4	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	1	conj	_	Gloss=he_said
 5	:	:	PUNCT	_	_	1	punct	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	ܗܵܘܢܵܢܵܐ	ܗܵܘܢܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	obj	_	Gloss=wise_one
@@ -263,21 +264,21 @@
 # newpar = speech
 # sent_id = 25
 # text = ܕܸܥ ܘܝܠܘܿܦ ܐܵܕܝܼܵܐ ܒܐܵܗܵܐ ܢܸܣܝܵܢܵܐ
-# text_en = Know and learn now by this experience
+# text_en = Know and learn now by this trial
 1	ܕܸܥ	ܝܵܕܹܥ	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Gloss=know
 2	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
 3	ܝܠܘܿܦ	ܝܵܠܹܦ	VERB	_	Mood=Imp|Number=Sing|Person=2	1	conj	_	Gloss=learn
 4	ܐܵܕܝܼܵܐ	ܐܵܕܝܼܵܐ	ADV	_	_	1	advmod	_	Gloss=now
 5	ܒ	ܒ	ADP	_	_	7	case	_	Gloss=by|SpaceAfter=No
 6	ܐܵܗܵܐ	ܐܵܗܵܐ	DET	_	Number=Sing|PronType=Dem	7	det	_	Gloss=this
-7	ܢܸܣܝܵܢܵܐ	ܢܸܣܝܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	obl	_	Gloss=experience
+7	ܢܸܣܝܵܢܵܐ	ܢܸܣܝܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	obl	_	Gloss=trial
 
 # sent_id = 26
 # text = ܕܚܵܩܘܿܪܵܐ ܟܚܵܝܹܐ ܡܫܵܡܥܵܢܵܐ.
 # text_en = That the flatterer lives off the listener.
 1	ܕ	ܕ	SCONJ	_	_	3	mark	_	Gloss=that|SpaceAfter=No
 2	ܚܵܩܘܿܪܵܐ	ܚܵܩܘܿܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	nsubj	_	Gloss=flatterer
-3	ܟܚܵܝܹܐ	ܚܵܝܹܐ	VERB	_	Aspect=Imp|VerbForm=Part|Voice=Act	0	root	_	Gloss=lives
+3	ܟܚܵܝܹܐ	ܚܵܝܹܐ	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Gloss=lives
 4	ܡ	ܡ݂ܢ	ADP	_	_	5	case	_	Gloss=from|SpaceAfter=No
 5	ܫܵܡܥܵܢܵܐ	ܫܵܡܥܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	obl	_	Gloss=listener
 6	.	.	PUNCT	_	_	3	punct	_	_
@@ -289,15 +290,15 @@
 2	ܗܵܘܢܵܐ	ܗܵܘܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	obj	_	Gloss=wisdom
 3	ܕ	ܕ	SCONJ	_	_	5	mark	_	Gloss=that|SpaceAfter=No
 4	ܐܸܕܝܘܿܡ	ܐܸܕܝܘܿܡ	ADV	_	_	5	advmod	_	Gloss=today
-5	ܡܘܼܠܸܦܠܝܼ	ܝܵܠܹܦ	VERB	_	Aspect=Perf|Number=Sing|Person=1|Voice=Cau	0	root	_	Gloss=I_taught
+5	ܡܘܼܠܸܦܠܝܼ	ܝܵܠܹܦ	VERB	_	Tense=Past|Number=Sing|Person=1|Voice=Cau	0	root	_	Gloss=I_taught
 6	ܩܵܬܘܼܟ	ܩܵܐ	ADP	_	Number[obj]=Sing|Person[obj]=2	5	obl	_	Gloss=to_you
 
 # sent_id = 28
 # text = ܗܹܐ ܟܹܐ ܛܵܒܹܐ ܩܸܛܥܵܐ ܕܓܘܼܒܬܵܐ.
 # text_en = Indeed is better than a piece of cheese.
 1	ܗܹܐ	ܗܹܐ	PART	_	_	3	advmod	_	Gloss=indeed
-2	ܟܹܐ	ܟܹܐ	PART	_	Aspect=Hab	3	aux	_	Gloss=is
-3	ܛܵܒܹܐ	ܛܵܒ݂ܵܐ	ADJ	_	Degree=Cmp|Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=better
+2	ܟܹܐ	ܟܹܐ	PART	_	Tense=Pres	3	aux	_	Gloss=is
+3	ܛܵܒܹܐ	ܛܵܒ݂ܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=better
 4	ܩܸܛܥܵܐ	ܩܸܛܥܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Cons	3	obl	_	Gloss=piece
 5	ܕ	ܕ	ADP	_	_	6	case	_	Gloss=of|SpaceAfter=No
 6	ܓܘܼܒܬܵܐ	ܓܘܼܒܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph	4	nmod	_	Gloss=cheese
@@ -305,23 +306,23 @@
 
 # sent_id = 29
 # text = ܠܵܐ ܦܵܫܡܸܬ ܪܵܒܵܐ ܒܘܿܬ ܐܵܗܵܐ ܙܝܵܢܘܼܟ
-# text_en = Do not worry much about this loss of yours
+# text_en = Do not worry much about this provision of yours
 1	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
-2	ܦܵܫܡܸܬ	ܦܵܫܹܡ	VERB	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	Gloss=you_worry
+2	ܦܵܫܡܸܬ	ܦܵܫܹܡ	VERB	_	Tense=Pres|Number=Sing|Person=2	0	root	_	Gloss=you_worry
 3	ܪܵܒܵܐ	ܪܵܒܵܐ	ADV	_	_	2	advmod	_	Gloss=much
 4	ܒܘܿܬ	ܒܘܿܬ	ADP	_	_	6	case	_	Gloss=about
 5	ܐܵܗܵܐ	ܐܵܗܵܐ	DET	_	Number=Sing|PronType=Dem	6	det	_	Gloss=this
-6	ܙܝܵܢܘܼܟ	ܙܝܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|State=Emph	2	obl	_	Gloss=your_loss
+6	ܙܝܵܢܘܼܟ	ܙܝܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|State=Emph	2	obl	_	Gloss=your_provision
 
 # sent_id = 30
 # text = ܘܠܵܐ ܩܵܒ݂ܠܸܬ ܘܠܵܐ ܕܵܒ݂ܩܸܬ ܚܘܼܫܬܵܐ. )
 # text_en = And do not complain and do not hold a grudge.)
 1	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
 2	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	3	advmod	_	Gloss=not
-3	ܩܵܒ݂ܠܸܬ	ܩܵܒ݂ܹܠ	VERB	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	Gloss=you_complain
+3	ܩܵܒ݂ܠܸܬ	ܩܵܒ݂ܹܠ	VERB	_	Tense=Pres|Number=Sing|Person=2	0	root	_	Gloss=you_complain
 4	ܘ	ܘ	CCONJ	_	_	6	cc	_	Gloss=and
 5	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	6	advmod	_	Gloss=not
-6	ܕܵܒ݂ܩܸܬ	ܕܵܒ݂ܹܩ	VERB	_	Aspect=Imp|Number=Sing|Person=2	3	conj	_	Gloss=you_hold
+6	ܕܵܒ݂ܩܸܬ	ܕܵܒ݂ܹܩ	VERB	_	Tense=Pres|Number=Sing|Person=2	3	conj	_	Gloss=you_hold
 7	ܚܘܼܫܬܵܐ	ܚܘܼܫܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph	6	obj	_	Gloss=grudge
 8	.	.	PUNCT	_	_	3	punct	_	_
 9	)	)	PUNCT	_	_	3	punct	_	_
@@ -331,20 +332,20 @@
 # text = ܩܲܪܓ݂ܵܐ ܟ̰ܸܡ ܢܟ݂ܝܼܦܵܐ ܝܡܹܐ ܠܹܗ ܡܵܘܡܵܬܹ̈ܐ
 # text_en = The crow very ashamed swore oaths
 1	ܩܲܪܓ݂ܵܐ	ܩܲܪܓ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	nsubj	_	Gloss=crow
-2	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_	Degree=Sup	3	advmod	_	Gloss=very
+2	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_		3	advmod	_	Gloss=very
 3	ܢܟ݂ܝܼܦܵܐ	ܢܟ݂ܝܼܦܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Part|Voice=Pass	1	amod	_	Gloss=ashamed
-4	ܝܡܹܐ	ܝܵܡܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_swore
+4	ܝܡܹܐ	ܝܵܡܹܐ	VERB	_	Tense=Past|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=he_swore
 5	ܠܹܗ	ܠ	ADP	_	Number[obj]=Sing|Person[obj]=3	4	obl	_	Gloss=to_himself
 6	ܡܵܘܡܵܬܹ̈ܐ	ܡܵܘܡܵܬܵܐ	NOUN	_	Gender=Fem|Number=Plur|State=Emph	4	obj	_	Gloss=oaths
 
 # sent_id = 32
-# text = ܠܚܲܒ݂ܪܹ̈ܐ ܫܲܕܠܵܢܹ̈ܐ ܠܹܐ ܨܵܠܹܐ ܢܵܬܹܗ.
+# text = ܠܚܲܒܪܹ̈ܐ ܫܲܕܠܵܢܹ̈ܐ ܠܹܐ ܨܵܠܹܐ ܢܵܬܹܗ.
 # text_en = To deceitful friends he will not incline his ear.
 1	ܠ	ܠ	ADP	_	_	2	case	_	Gloss=to|SpaceAfter=No
-2	ܚܲܒ݂ܪܹ̈ܐ	ܚܲܒ݂ܪܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	5	obl	_	Gloss=friends
+2	ܚܲܒܪܹ̈ܐ	ܚܲܒܪܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	5	obl	_	Gloss=friends
 3	ܫܲܕܠܵܢܹ̈ܐ	ܫܲܕܠܵܢܵܐ	ADJ	_	Gender=Masc|Number=Plur|State=Emph	2	amod	_	Gloss=deceitful
 4	ܠܹܐ	ܠܹܐ	PART	_	Polarity=Neg	5	advmod	_	Gloss=not
-5	ܨܵܠܹܐ	ܨܵܠܹܐ	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	Gloss=he_inclines
+5	ܨܵܠܹܐ	ܨܵܠܹܐ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Part	0	root	_	Gloss=he_inclines
 6	ܢܵܬܹܗ	ܢܵܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|State=Emph	5	obj	_	Gloss=his_ear
 7	.	.	PUNCT	_	_	5	punct	_	_
 

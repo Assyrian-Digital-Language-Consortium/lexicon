@@ -3,118 +3,118 @@
 # newdoc author = Mar Toma Audo
 # newdoc source = Classical Assyrian Fables Collection
 
-1	ܡܲܬܠܵܐ	ܡܲܬܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=fable
-2	ܐ	ܐ	X	_	_	1	dep	_	Gloss=A
+1	ܡܲܬܠܵܐ	ܡܲܬܠܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=fable
+2	ܐ	ܐ	NOUN	_	_	1	nmod	_	Gloss=A
 3	:	:	PUNCT	_	_	1	punct	_	_
-4	ܨܸܨܪܵܐ	ܨܸܨܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	appos	_	Gloss=cricket
+4	ܨܸܨܪܵܐ	ܨܸܨܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	Gloss=cricket
 5	ܘ	ܘ	CCONJ	_	_	6	cc	_	Gloss=and
-6	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	conj	_	Gloss=ant
+6	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	Gloss=ant
 
 # sent_id = 2
 # text = ܚܲܕ ܨܨܸܪܵܐ ܟܠܹܗ ܩܲܝܛܵܐ
 # text_en = One cricket all summer
-1	ܚܲܕ	ܚܲܕ	NUM	_	NumType=Card	2	nummod	_	Gloss=one
-2	ܨܨܸܪܵܐ	ܨܸܨܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=cricket
-3	ܟܠܹܗ	ܟܠ	DET	_	PronType=Tot	4	det	_	Gloss=all
-4	ܩܲܝܛܵܐ	ܩܲܝܛܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	obl:tmod	_	Gloss=summer
+1	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|PronType=Art	2	det	_	Gloss=one
+2	ܨܨܸܪܵܐ	ܨܸܨܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=cricket
+3	ܟܠܹܗ	ܟܠ	DET	_	_	4	det	_	Gloss=all
+4	ܩܲܝܛܵܐ	ܩܲܝܛܵܐ	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	Gloss=summer
 
 # sent_id = 3
 # text = ܒܲܛܝܼܠܵܐ ܒܕܘܼܟܬܹܗ ܣܩܝܼܛܵܐ
 # text_en = Idle in his place, lazy
-1	ܒܲܛܝܼܠܵܐ	ܒܲܛܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=idle
+1	ܒܲܛܝܼܠܵܐ	ܒܲܛܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Gloss=idle
 2	ܒ	ܒ	ADP	_	_	3	case	_	Gloss=in
-3	ܕܘܼܟܬܹܗ	ܕܘܼܟܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|State=Emph|Number[psor]=Sing|Person[psor]=3	1	obl	_	Gloss=his_place
-4	ܣܩܝܼܛܵܐ	ܣܩܝܼܛܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	1	conj	_	Gloss=lazy
+3	ܕܘܼܟܬܹܗ	ܕܘܼܟܬܵܐ	NOUN	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	1	obl	_	Gloss=his_place
+4	ܣܩܝܼܛܵܐ	ܣܩܝܼܛܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=lazy
 
 # sent_id = 4
 # text = ܗܘܹܠܹܗ ܕܵܝܹܡ ܒܸܙܡܵܪܵܐ
 # text_en = He was always singing
-1	ܗܘܹܠܹܗ	ܗܘܵܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=was
+1	ܗܘܹܠܹܗ	ܗܵܘܹܐ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=was
 2	ܕܵܝܹܡ	ܕܵܝܹܡ	ADV	_	_	1	advmod	_	Gloss=always
-3	ܒܸܙܡܵܪܵܐ	ܙܡܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Inf	1	obl	_	Gloss=singing
+3	ܒܸܙܡܵܪܵܐ	ܙܵܡܹܪ	VERB	_	VerbForm=Part	1	xcomp	_	Gloss=singing
 
 # sent_id = 5
 # text = ܨܸܪܨܸܪ ܨܸܪܨܸܪ ܒܹܐܡܵܪܵܐ
 # text_en = Chirp chirp he was saying
-1	ܨܸܪܨܸܪ	ܨܸܪܨܸܪ	INTJ	_	_	3	discourse	_	Gloss=chirp
-2	ܨܸܪܨܸܪ	ܨܸܪܨܸܪ	INTJ	_	_	1	conj	_	Gloss=chirp
-3	ܒܹܐܡܵܪܵܐ	ܐܵܡܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Inf	0	root	_	Gloss=saying
+1	ܨܸܪܨܸܪ	ܨܸܪܨܸܪ	ADV	_	_	3	advmod	_	Gloss=chirp
+2	ܨܸܪܨܸܪ	ܨܸܪܨܸܪ	ADV	_	_	1	conj	_	Gloss=chirp
+3	ܒܹܐܡܵܪܵܐ	ܐܵܡܹܪ	VERB	_	VerbForm=Part	0	root	_	Gloss=saying
 
 # sent_id = 6
 # text = ܕܸܒܪܵܐ ܒܩܸܢܹܗ ܠܵܐ ܕܪܹܠܹܗ
 # text_en = Honey in his nest, he didn't gather
-1	ܕܸܒܪܵܐ	ܕܸܒܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	obj	_	Gloss=honey
+1	ܕܸܒܪܵܐ	ܕܸܒܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Gloss=honey
 2	ܒ	ܒ	ADP	_	_	3	case	_	Gloss=in
-3	ܩܸܢܹܗ	ܩܸܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|Number[psor]=Sing|Person[psor]=3	1	nmod	_	Gloss=his_nest
-4	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	5	advmod	_	Gloss=not
-5	ܕܪܹܠܹܗ	ܕܵܪܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=gathered
+3	ܩܸܢܹܗ	ܩܸܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	1	nmod	_	Gloss=his_nest
+4	ܠܵܐ	ܠܵܐ	PART	_	_	5	advmod	_	Gloss=not
+5	ܕܪܹܠܹܗ	ܕܵܪܹܐ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=gathered
 
 # sent_id = 7
 # text = ܗܲܠ ܕܣܸܬܘܵܐ ܒܪܹܫܹܗ ܥܪܹܠܹܗ
 # text_en = Until winter came upon his head
 1	ܗܲܠ	ܗܲܠ	ADP	_	_	6	mark	_	Gloss=until
 2	ܕ	ܕ	SCONJ	_	_	6	mark	_	Gloss=that
-3	ܣܸܬܘܵܐ	ܣܸܬܘܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	6	nsubj	_	Gloss=winter
+3	ܣܸܬܘܵܐ	ܣܸܬܘܵܐ	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Gloss=winter
 4	ܒ	ܒ	ADP	_	_	5	case	_	Gloss=on
-5	ܪܹܫܹܗ	ܪܹܫܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|Number[psor]=Sing|Person[psor]=3	6	obl	_	Gloss=his_head
-6	ܥܪܹܠܹܗ	ܥܵܪܹܐ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=came
+5	ܪܹܫܹܗ	ܪܹܫܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	obl	_	Gloss=his_head
+6	ܥܪܹܠܹܗ	ܥܵܪܹܐ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=came
 
 # sent_id = 8
 # text = ܠܲܝܬ ܗ݇ܘܵܐ ܠܹܗ ܐܵܦ ܚܲܕ ܩܸܛܥܵܐ
 # text_en = He didn't have even one piece
-1	ܠܲܝܬ	ܠܲܝܬ	VERB	_	Polarity=Neg	0	root	_	Gloss=there_is_not
-2	ܗ݇ܘܵܐ	ܗܘܵܐ	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	1	aux	_	Gloss=was
-3	ܠܹܗ	ܠ	ADP	_	Number[psor]=Sing|Person[psor]=3	1	obl	_	Gloss=to_him
+1	ܠܲܝܬ	ܠܲܝܬ	VERB	_	_	0	root	_	Gloss=there_is_not
+2	ܗ݇ܘܵܐ	ܗܵܘܹܐ	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	1	aux	_	Gloss=was
+3	ܠܹܗ	ܠ	ADP	_	Person=3	1	obl	_	Gloss=to_him
 4	ܐܵܦ	ܐܵܦ	ADV	_	_	6	advmod	_	Gloss=even
-5	ܚܲܕ	ܚܲܕ	NUM	_	NumType=Card	6	nummod	_	Gloss=one
-6	ܩܸܛܥܵܐ	ܩܸܛܥܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	nsubj	_	Gloss=piece
+5	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|PronType=Art	6	det	_	Gloss=one
+6	ܩܸܛܥܵܐ	ܩܸܛܥܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	Gloss=piece
 
 # sent_id = 9
 # text = ܠܵܐ ܕܕܸܕܒ݂ܵܐ ܘܠܵܐ ܕܬܸܘܸܠܥܵܐ
 # text_en = Neither of corn nor of worm
-1	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	3	advmod	_	Gloss=not
+1	ܠܵܐ	ܠܵܐ	PART	_	_	3	advmod	_	Gloss=not
 2	ܕ	ܕ	ADP	_	_	3	case	_	Gloss=of
-3	ܕܸܕܒ݂ܵܐ	ܕܸܕܒ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=corn
+3	ܕܸܕܒ݂ܵܐ	ܕܸܕܒ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=corn
 4	ܘ	ܘ	CCONJ	_	_	7	cc	_	Gloss=and
-5	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	7	advmod	_	Gloss=not
+5	ܠܵܐ	ܠܵܐ	PART	_	_	7	advmod	_	Gloss=not
 6	ܕ	ܕ	ADP	_	_	7	case	_	Gloss=of
-7	ܬܸܘܸܠܥܵܐ	ܬܸܘܸܠܥܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	conj	_	Gloss=worm
+7	ܬܸܘܸܠܥܵܐ	ܬܸܘܸܠܥܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	Gloss=worm
 
 # sent_id = 10
 # text = ܘܩܵܐ ܚܲܕ ܫܒ݂ܵܒܹܗ ܫܸܟܘܵܢܵܐ ܐܙܠ
 # text_en = And to one of his neighbors, the ant, he went
 1	ܘ	ܘ	CCONJ	_	_	6	cc	_	Gloss=and
 2	ܩܵܐ	ܩܵܐ	ADP	_	_	4	case	_	Gloss=to
-3	ܚܲܕ	ܚܲܕ	NUM	_	NumType=Card	4	nummod	_	Gloss=one
-4	ܫܒ݂ܵܒܹܗ	ܫܒ݂ܵܒ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|Number[psor]=Sing|Person[psor]=3	6	obl	_	Gloss=his_neighbor
-5	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	appos	_	Gloss=ant
-6	ܐܙܠ	ܐܵܙܹܠ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=went
+3	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|PronType=Art	4	det	_	Gloss=one
+4	ܫܒ݂ܵܒܹܗ	ܫܒ݂ܵܒ݂ܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	obl	_	Gloss=his_neighbor
+5	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	Gloss=ant
+6	ܐܙܠ	ܐܵܙܹܠ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=went
 
 # sent_id = 11
 # text = ܡܘܼܕܸܥܠܹܗ ܗ̇ܘ ܥܵܘܩܵܢܹ̈ܐ
 # text_en = He informed him of his troubles
-1	ܡܘܼܕܸܥܠܹܗ	ܝܵܕܹܥ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Number[obj]=Sing|Person[obj]=3	0	root	_	Gloss=informed_him
-2	ܗ̇ܘ	ܗ̇ܘ	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Gloss=the
-3	ܥܵܘܩܵܢܹ̈ܐ	ܥܵܘܩܵܢܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	1	obj	_	Gloss=troubles
+1	ܡܘܼܕܸܥܠܹܗ	ܝܵܕܹܥ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=informed_him
+2	ܗ̇ܘ	ܗ̇ܘ	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Gloss=the
+3	ܥܵܘܩܵܢܹ̈ܐ	ܥܵܘܩܵܢܵܐ	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	Gloss=troubles
 
 # sent_id = 12
 # text = ܘܐ݇ܡܸܪܹܗ ܩܵܬܹܗ:"ܐܲܚܘܿܢܵܐ
 # text_en = And he said to him: "Brother
 1	ܘ	ܘ	CCONJ	_	_	2	cc	_	Gloss=and
-2	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Number[obj]=Sing|Person[obj]=3	0	root	_	Gloss=said_to_him
-3	ܩܵܬܹܗ	ܩܵܐ	ADP	_	Number[psor]=Sing|Person[psor]=3	2	obl	_	Gloss=to_him
+2	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=said_to_him
+3	ܩܵܬܹܗ	ܩܵܐ	ADP	_	Person=3	2	obl	_	Gloss=to_him
 4	:	:	PUNCT	_	_	2	punct	_	_
 5	"	"	PUNCT	_	_	6	punct	_	_
-6	ܐܲܚܘܿܢܵܐ	ܐܲܚܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	vocative	_	Gloss=brother
+6	ܐܲܚܘܿܢܵܐ	ܐܲܚܵܐ	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	Gloss=brother
 
 # sent_id = 13
 # text = ܚܲܕ ܡܸܢܕܝܼ ܗܲܒ݂ܠܝܼ ܒܕܲܝܢܵܐ
 # text_en = Give me something as a loan
-1	ܚܲܕ	ܚܲܕ	DET	_	PronType=Ind	2	det	_	Gloss=some
-2	ܡܸܢܕܝܼ	ܡܸܢܕܝܼ	NOUN	_	Gender=Masc|Number=Sing|State=Abs	3	obj	_	Gloss=thing
-3	ܗܲܒ݂ܠܝܼ	ܝܵܗܹܒ݂	VERB	_	Mood=Imp|Number=Sing|Person=2|Number[obj]=Sing|Person[obj]=1	0	root	_	Gloss=give_me
+1	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|PronType=Art	2	det	_	Gloss=some
+2	ܡܸܢܕܝܼ	ܡܸܢܕܝܼ	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Gloss=thing
+3	ܗܲܒ݂ܠܝܼ	ܝܵܗܹܒ݂	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Gloss=give_me
 4	ܒ	ܒ	ADP	_	_	5	case	_	Gloss=as
-5	ܕܲܝܢܵܐ	ܕܲܝܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	obl	_	Gloss=loan
+5	ܕܲܝܢܵܐ	ܕܲܝܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	Gloss=loan
 
 # sent_id = 14
 # text = ܘܐܸܠܵܐ ܕܠܵܐ ܫܸܟ ܡ݂ܢ ܟܸܦܢܝܼ:
@@ -122,37 +122,37 @@
 1	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
 2	ܐܸܠܵܐ	ܐܸܠܵܐ	CCONJ	_	_	5	mark	_	Gloss=otherwise
 3	ܕ	ܕ	SCONJ	_	_	5	mark	_	Gloss=that
-4	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	5	advmod	_	Gloss=not
-5	ܫܸܟ	ܫܵܟܹܚ	VERB	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	Gloss=can
+4	ܠܵܐ	ܠܵܐ	PART	_	_	5	advmod	_	Gloss=not
+5	ܫܸܟ	ܫܵܟܹܚ	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=can
 6	ܡ݂ܢ	ܡ݂ܢ	ADP	_	_	7	case	_	Gloss=from
-7	ܟܸܦܢܝܼ	ܟܸܦܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Abs|Number[psor]=Sing|Person[psor]=1	5	obl	_	Gloss=my_hunger
+7	ܟܸܦܢܝܼ	ܟܸܦܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	obl	_	Gloss=my_hunger
 8	:	:	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 15
 # text = ܒܸܕ ܡܵܝܬܸܢ ܗܲܪ ܓܵܘ ܩܸܢܝܼ.
 # text_en = I will die right in my nest.
-1	ܒܸܕ	ܒܸܕ	PART	_	_	2	aux	_	Gloss=will
-2	ܡܵܝܬܸܢ	ܡܵܝܹܬ	VERB	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	Gloss=will_die
+1	ܒܸܕ	ܒܸܕ	AUX	_	_	2	aux	_	Gloss=will
+2	ܡܵܝܬܸܢ	ܡܵܝܹܬ	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=will_die
 3	ܗܲܪ	ܗܲܪ	ADV	_	_	2	advmod	_	Gloss=right
 4	ܓܵܘ	ܓܵܘ	ADP	_	_	5	case	_	Gloss=in
-5	ܩܸܢܝܼ	ܩܸܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Abs|Number[psor]=Sing|Person[psor]=1	2	obl	_	Gloss=my_nest
+5	ܩܸܢܝܼ	ܩܸܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes	2	obl	_	Gloss=my_nest
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 16
 # text = ܠܵܐ ܙܵܕܥܸܬ ܒܸܕ ܦܵܪܥܸܢܘܼܟ
 # text_en = Didn't you know that I will repay you
-1	ܠܵܐ	ܠܵܐ	PART	_	Polarity=Neg	2	advmod	_	Gloss=not
-2	ܙܵܕܥܸܬ	ܝܵܕܹܥ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=2	0	root	_	Gloss=knew
-3	ܒܸܕ	ܒܸܕ	PART	_	_	4	aux	_	Gloss=will
-4	ܦܵܪܥܸܢܘܼܟ	ܦܵܪܹܥ	VERB	_	Aspect=Imp|Number=Sing|Person=1|Number[obj]=Sing|Person[obj]=2	2	ccomp	_	Gloss=will_repay_you
+1	ܠܵܐ	ܠܵܐ	PART	_	_	2	advmod	_	Gloss=not
+2	ܙܵܕܥܸܬ	ܝܵܕܹܥ	VERB	_	Gender=Masc|Number=Sing|Person=2|Tense=Past	0	root	_	Gloss=knew
+3	ܒܸܕ	ܒܸܕ	AUX	_	_	4	aux	_	Gloss=will
+4	ܦܵܪܥܸܢܘܼܟ	ܦܵܪܹܥ	VERB	_	Number=Sing|Person=1|Tense=Pres	2	ccomp	_	Gloss=will_repay_you
 
 # sent_id = 17
 # text = ܘܙܵܘܕܘܼܢܝܵܐ ܒܸܕ ܝܵܗ݇ܒܸܢܘܼܟ݂
 # text_en = And provisions that I will give you
 1	ܘ	ܘ	CCONJ	_	_	2	cc	_	Gloss=and
-2	ܙܵܘܕܘܼܢܝܵܐ	ܙܵܘܕܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	0	root	_	Gloss=provisions
-3	ܒܸܕ	ܒܸܕ	PART	_	_	4	aux	_	Gloss=will
-4	ܝܵܗ݇ܒܸܢܘܼܟ݂	ܝܵܗܹܒ݂	VERB	_	Aspect=Imp|Number=Sing|Person=1|Number[obj]=Sing|Person[obj]=2	2	acl	_	Gloss=will_give_you
+2	ܙܵܘܕܘܼܢܝܵܐ	ܙܵܘܕܵܐ	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Gloss=provisions
+3	ܒܸܕ	ܒܸܕ	AUX	_	_	4	aux	_	Gloss=will
+4	ܝܵܗ݇ܒܸܢܘܼܟ݂	ܝܵܗܹܒ݂	VERB	_	Number=Sing|Person=1|Tense=Pres	2	acl	_	Gloss=will_give_you
 
 # sent_id = 18
 # text = ܘܲܥܕܵܐ ܗܲܠ ܛܲܒܲܚ ܕܐܵܬܹܐ:
@@ -160,9 +160,9 @@
 1	ܘ	ܘ	CCONJ	_	_	4	cc	_	Gloss=and
 2	ܲܥܕܵܐ	ܥܕܵܐ	ADP	_	_	4	case	_	Gloss=until
 3	ܗܲܠ	ܗܲܠ	ADP	_	_	4	case	_	Gloss=until
-4	ܛܲܒܲܚ	ܛܲܒܲܚ	NOUN	_	Gender=Masc|Number=Sing|State=Abs	0	root	_	Gloss=slaughter
+4	ܛܲܒܲܚ	ܛܲܒܲܚ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=slaughter
 5	ܕ	ܕ	SCONJ	_	_	6	mark	_	Gloss=that
-6	ܐܵܬܹܐ	ܐܵܬܹܐ	VERB	_	VerbForm=Part|Voice=Act	4	acl:relcl	_	Gloss=comes
+6	ܐܵܬܹܐ	ܐܵܬܹܐ	VERB	_	VerbForm=Part	4	acl:relcl	_	Gloss=comes
 7	:	:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 19
@@ -171,45 +171,45 @@
 1	ܡ݂ܢ	ܡ݂ܢ	ADP	_	_	2	case	_	Gloss=from
 2	ܩܵܕ݇ܡ	ܩܕܵܡ	ADP	_	_	4	mark	_	Gloss=before
 3	ܕ	ܕ	SCONJ	_	_	4	mark	_	Gloss=that
-4	ܝܵܪܡܝܼ	ܪܵܡܹܐ	VERB	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	Gloss=throw
-5	ܒܸܕܪ̈ܬܹܐ	ܕܵܪܬܵܐ	NOUN	_	Gender=Fem|Number=Plur|State=Emph	4	obj	_	Gloss=courtyards
+4	ܝܵܪܡܝܼ	ܪܵܡܹܐ	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=throw
+5	ܒܸܕܪ̈ܬܹܐ	ܕܵܪܬܵܐ	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	Gloss=courtyards
 6	"	"	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 20
 # text = ܐ݇ܡܸܪܹܗ ܩܵܬܹܗ ܫܸܟܘܵܢܵܐ:
 # text_en = The ant said to him:
-1	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Number[obj]=Sing|Person[obj]=3	0	root	_	Gloss=said_to_him
-2	ܩܵܬܹܗ	ܩܵܐ	ADP	_	Number[psor]=Sing|Person[psor]=3	1	obl	_	Gloss=to_him
-3	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	nsubj	_	Gloss=ant
+1	ܐ݇ܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=said_to_him
+2	ܩܵܬܹܗ	ܩܵܐ	ADP	_	Person=3	1	obl	_	Gloss=to_him
+3	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	Gloss=ant
 4	:	:	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 21
 # text = "ܕܲܝܢܵܐ ܠܹܐ ܝܘܸܢ ܝܵܗ݇ܒ݂ܵܢܵܐ .
 # text_en = "A loan I am not giving.
 1	"	"	PUNCT	_	_	5	punct	_	_
-2	ܕܲܝܢܵܐ	ܕܲܝܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	obj	_	Gloss=loan
-3	ܠܹܐ	ܠܹܐ	PART	_	Polarity=Neg	5	advmod	_	Gloss=not
-4	ܝܘܸܢ	ܗܘܵܐ	AUX	_	Number=Sing|Person=1	5	aux	_	Gloss=am
-5	ܝܵܗ݇ܒ݂ܵܢܵܐ	ܝܵܗܹܒ݂	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gloss=giving
+2	ܕܲܝܢܵܐ	ܕܲܝܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Gloss=loan
+3	ܠܹܐ	ܠܹܐ	PART	_	_	5	advmod	_	Gloss=not
+4	ܝܘܸܢ	ܗܵܘܹܐ	AUX	_	Number=Sing|Person=1|Tense=Pres	5	aux	_	Gloss=am
+5	ܝܵܗ݇ܒ݂ܵܢܵܐ	ܝܵܗܹܒ݂	VERB	_	VerbForm=Part	0	root	_	Gloss=giving
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 22
 # text = ܗܲܠ ܐܸܕܝܘܿܡ ܐܲܝܟܵܐ ܝܘܸܬ ܗ݇ܘܵܐ
 # text_en = Until today where were you
 1	ܗܲܠ	ܗܲܠ	ADP	_	_	2	case	_	Gloss=until
-2	ܐܸܕܝܘܿܡ	ܝܵܘܡܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	5	obl:tmod	_	Gloss=today
+2	ܐܸܕܝܘܿܡ	ܝܵܘܡܵܐ	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	Gloss=today
 3	ܐܲܝܟܵܐ	ܐܲܝܟܵܐ	ADV	_	PronType=Int	5	advmod	_	Gloss=where
-4	ܝܘܸܬ	ܗܘܵܐ	AUX	_	Number=Sing|Person=2	5	cop	_	Gloss=were
-5	ܗ݇ܘܵܐ	ܗܘܵܐ	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Gloss=were
+4	ܝܘܸܬ	ܗܵܘܹܐ	AUX	_	Number=Sing|Person=2|Tense=Pres	5	cop	_	Gloss=were
+5	ܗ݇ܘܵܐ	ܗܵܘܹܐ	VERB	_	VerbForm=Part	0	root	_	Gloss=were
 
 # sent_id = 23
 # text = ܘܡܘܼܕܝܼ ܒܸܥܒ݂ܵܕܵܐ ܝܘܸܬ ܗ݇ܘܵܐ؟"
 # text_en = And what work were you doing?"
 1	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
 2	ܡܘܼܕܝܼ	ܡܘܼܕܝܼ	PRON	_	PronType=Int	5	obj	_	Gloss=what
-3	ܒܸܥܒ݂ܵܕܵܐ	ܥܒ݂ܵܕܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	nmod	_	Gloss=work
-4	ܝܘܸܬ	ܗܘܵܐ	AUX	_	Number=Sing|Person=2	5	cop	_	Gloss=were
-5	ܗ݇ܘܵܐ	ܗܘܵܐ	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	Gloss=were
+3	ܒܸܥܒ݂ܵܕܵܐ	ܥܒ݂ܵܕܵܐ	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Gloss=work
+4	ܝܘܸܬ	ܗܵܘܹܐ	AUX	_	Number=Sing|Person=2|Tense=Pres	5	cop	_	Gloss=were
+5	ܗ݇ܘܵܐ	ܗܵܘܹܐ	VERB	_	VerbForm=Part	0	root	_	Gloss=were
 6	؟	؟	PUNCT	_	_	5	punct	_	_
 7	"	"	PUNCT	_	_	5	punct	_	_
 
@@ -218,17 +218,17 @@
 # text_en = "Truly I was always
 1	"	"	PUNCT	_	_	3	punct	_	_
 2	ܡܸܓ̰ܸܕ	ܡܸܓ̰ܸܕ	ADV	_	_	3	advmod	_	Gloss=truly
-3	ܗܘܹܐ	ܗܘܵܐ	AUX	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=1	0	root	_	Gloss=was
-4	ܠܝܼ	ܠ	ADP	_	Number[psor]=Sing|Person[psor]=1	3	obl	_	Gloss=to_me
+3	ܗܘܹܐ	ܗܵܘܹܐ	AUX	_	Gender=Masc|Number=Sing|Person=1|Tense=Past	0	root	_	Gloss=was
+4	ܠܝܼ	ܠ	ADP	_	Person=1	3	obl	_	Gloss=to_me
 5	ܗܲܡܵܫܵܐ	ܗܲܡܵܫܵܐ	ADV	_	_	3	advmod	_	Gloss=always
 
 # sent_id = 25
 # text = ܒܸܙܡܵܪܵܐ ܩܵܐ ܟܠ ܐ݇ܢܵܫܵܐ."
 # text_en = Singing for all people."
-1	ܒܸܙܡܵܪܵܐ	ܙܡܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph|VerbForm=Inf	0	root	_	Gloss=singing
+1	ܒܸܙܡܵܪܵܐ	ܙܵܡܹܪ	VERB	_	VerbForm=Part	0	root	_	Gloss=singing
 2	ܩܵܐ	ܩܵܐ	ADP	_	_	4	case	_	Gloss=for
-3	ܟܠ	ܟܠ	DET	_	PronType=Tot	4	det	_	Gloss=all
-4	ܐ݇ܢܵܫܵܐ	ܐ݇ܢܵܫܵܐ	NOUN	_	Gender=Masc|Number=Plur|State=Emph	1	obl	_	Gloss=people
+3	ܟܠ	ܟܠ	DET	_	_	4	det	_	Gloss=all
+4	ܐ݇ܢܵܫܵܐ	ܐ݇ܢܵܫܵܐ	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	Gloss=people
 5	.	.	PUNCT	_	_	1	punct	_	_
 6	"	"	PUNCT	_	_	1	punct	_	_
 
@@ -236,31 +236,31 @@
 # text = ܗܵܝܓܵܗ ܐܲܡܸܪܹܗ ܫܸܟܘܵܢܵܐ:
 # text_en = Then the ant said:
 1	ܗܵܝܓܵܗ	ܗܵܝܓܵܗ	ADV	_	_	2	advmod	_	Gloss=then
-2	ܐܲܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=said
-3	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	2	nsubj	_	Gloss=ant
+2	ܐܲܡܸܪܹܗ	ܐܵܡܹܪ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=said
+3	ܫܸܟܘܵܢܵܐ	ܫܸܟܘܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	Gloss=ant
 4	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 27
 # text = ܐܵܗܵܐ ܚܲܒܪܵܐ ܗܵܘܢܵܢܵܐ:
 # text_en = Ah, friend, rejoicing:
-1	ܐܵܗܵܐ	ܐܵܗܵܐ	INTJ	_	_	0	root	_	Gloss=ah
-2	ܚܲܒܪܵܐ	ܚܲܒܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	1	vocative	_	Gloss=friend
-3	ܗܵܘܢܵܢܵܐ	ܗܵܘܢܵܢܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	2	amod	_	Gloss=rejoicing
-4	:	:	PUNCT	_	_	1	punct	_	_
+1	ܐܵܗܵܐ	ܐܵܗܵܐ	DET	_	PronType=Dem	2	det	_	Gloss=ah
+2	ܚܲܒܪܵܐ	ܚܲܒܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=friend
+3	ܗܵܘܢܵܢܵܐ	ܗܵܘܢܵܢܵܐ	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Gloss=rejoicing
+4	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 28
 # text = "ܩܲܝܛܘܼܟ݂ ܒܸܙܡܵܪܵܐ ܥܒܸܪܹܗ
 # text_en = "Your summer in singing passed
 1	"	"	PUNCT	_	_	4	punct	_	_
-2	ܩܲܝܛܘܼܟ݂	ܩܲܝܛܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Abs|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	Gloss=your_summer
-3	ܒܸܙܡܵܪܵܐ	ܙܡܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	4	obl	_	Gloss=in_singing
-4	ܥܒܸܪܹܗ	ܥܵܒܹܪ	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	0	root	_	Gloss=passed
+2	ܩܲܝܛܘܼܟ݂	ܩܲܝܛܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	nsubj	_	Gloss=your_summer
+3	ܒܸܙܡܵܪܵܐ	ܙܡܵܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Gloss=in_singing
+4	ܥܒܸܪܹܗ	ܥܵܒܹܪ	VERB	_	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=passed
 
 # sent_id = 29
 # text = ܣܸܬܘܘܼܟ݂ ܒܪܸܩܕܵܐ ܡܲܥܒܹܪܹܗ."
 # text_en = Your winter in dancing spend it."
-1	ܣܸܬܘܘܼܟ݂	ܣܸܬܘܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Abs|Number[psor]=Sing|Person[psor]=2	3	obj	_	Gloss=your_winter
-2	ܒܪܸܩܕܵܐ	ܪܸܩܕܵܐ	NOUN	_	Gender=Masc|Number=Sing|State=Emph	3	obl	_	Gloss=in_dancing
+1	ܣܸܬܘܘܼܟ݂	ܣܸܬܘܵܐ	NOUN	_	Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	obj	_	Gloss=your_winter
+2	ܒܪܸܩܕܵܐ	ܪܸܩܕܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	Gloss=in_dancing
 3	ܡܲܥܒܹܪܹܗ	ܥܵܒܹܪ	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	Gloss=spend_it
 4	.	.	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	3	punct	_	_
@@ -268,23 +268,23 @@
 # sent_id = 30
 # text = ܟܠ ܡܲܐܝܼܢܵܐ (ܬܲܢܒܵܠ) ܘܒܲܛܝܼܠܵܐ:
 # text_en = Every lazy one (sluggard) and idle:
-1	ܟܠ	ܟܠ	DET	_	PronType=Tot	2	det	_	Gloss=every
-2	ܡܲܐܝܼܢܵܐ	ܡܲܐܝܼܢܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=lazy
+1	ܟܠ	ܟܠ	DET	_	_	2	det	_	Gloss=every
+2	ܡܲܐܝܼܢܵܐ	ܡܲܐܝܼܢܵܐ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Gloss=lazy
 3	(	(	PUNCT	_	_	4	punct	_	_
-4	ܬܲܢܒܵܠ	ܬܲܢܒܵܠ	NOUN	_	Gender=Masc|Number=Sing|State=Abs	2	appos	_	Gloss=sluggard
+4	ܬܲܢܒܵܠ	ܬܲܢܒܵܠ	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Gloss=sluggard
 5	)	)	PUNCT	_	_	4	punct	_	_
 6	ܘ	ܘ	CCONJ	_	_	7	cc	_	Gloss=and
-7	ܒܲܛܝܼܠܵܐ	ܒܲܛܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	2	conj	_	Gloss=idle
+7	ܒܲܛܝܼܠܵܐ	ܒܲܛܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	Gloss=idle
 8	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 31
 # text = ܣܢܝܼܩܵܐ ܝܠܹܗ ܘܣܸܢܝܵܐ ܘܢܦܝܼܠܵܐ.
 # text_en = Needy he is and hated and fallen.
-1	ܣܢܝܼܩܵܐ	ܣܢܝܼܩܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	0	root	_	Gloss=needy
-2	ܝܠܹܗ	ܗܘܵܐ	AUX	_	Gender=Masc|Number=Sing|Person=3	1	cop	_	Gloss=he_is
+1	ܣܢܝܼܩܵܐ	ܣܢܝܼܩܵܐ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Gloss=needy
+2	ܝܠܹܗ	ܗܵܘܹܐ	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Pres	1	cop	_	Gloss=he_is
 3	ܘ	ܘ	CCONJ	_	_	4	cc	_	Gloss=and
-4	ܣܸܢܝܵܐ	ܣܸܢܝܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	1	conj	_	Gloss=hated
+4	ܣܸܢܝܵܐ	ܣܸܢܝܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=hated
 5	ܘ	ܘ	CCONJ	_	_	6	cc	_	Gloss=and
-6	ܢܦܝܼܠܵܐ	ܢܦܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing|State=Emph	1	conj	_	Gloss=fallen
+6	ܢܦܝܼܠܵܐ	ܢܦܝܼܠܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=fallen
 7	.	.	PUNCT	_	_	1	punct	_	_
 
