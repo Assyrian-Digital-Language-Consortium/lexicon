@@ -1,0 +1,184 @@
+# newdoc id = mar-toma-audo-fables-03
+# newdoc title = ܦܩܥܐ ܘܬܘܪܐ (The Frog and the Bull)
+# newdoc author = Mar Toma Audo
+# newdoc source = Classical Assyrian Fables Collection
+
+# newpar id = frog-and-bull
+# sent_id = 1
+# text = ܡܬܠܐ. ܓ.
+# text_en = Fable C.
+1	ܡܬܠܐ	ܡܲܬܠܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=fable
+2	.	.	PUNCT	_	_	1	punct	_	_
+3	ܓ	ܓ	NOUN	_	_	1	nmod	_	Gloss=C|NumForm=Letter
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 2
+# text = ܦܩܥܐ ܘܬܘܪܐ
+# text_en = The Frog and the Bull
+1	ܦܩܥܐ	ܦܸܩܥܵܐ	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=frog
+2	ܘ	ܘ	CCONJ	_	_	3	cc	_	Gloss=and
+3	ܬܘܪܐ	ܬܵܘܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=bull
+
+# sent_id = 3
+# text = ܚܕܵܐ ܦܸܩܥܵܐ ܚܙܹܠܵܗ̇ ܚܲܕ ܬܵܘܪܵܐ
+# text_en = One frog saw a bull
+1	ܚܕܵܐ	ܚܕܵܐ	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Gloss=one
+2	ܦܸܩܥܵܐ	ܦܸܩܥܵܐ	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Gloss=frog
+3	ܚܙܹܠܵܗ̇	ܚܵܙܹܐ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_saw
+4	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Gloss=a
+5	ܬܵܘܪܵܐ	ܬܵܘܪܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Gloss=bull
+
+# sent_id = 4
+# text = ܚܠܝܼܡܵܐ ܬܪܝܼܨܵܐ ܝܲܟܵܐ ܘܓܘܼܪܵܐ.
+# text_en = Healthy, upright, large, and big.
+1	ܚܠܝܼܡܵܐ	ܚܠܝܼܡܵܐ	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Gloss=healthy
+2	ܬܪܝܼܨܵܐ	ܬܪܝܼܨܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=upright
+3	ܝܲܟܵܐ	ܝܲܟܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=large
+4	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
+5	ܓܘܼܪܵܐ	ܓܘܼܪܵܐ	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Gloss=big
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 5
+# text = ܘܟܲܕ ܙܥܘܿܪܬܵܐ ܗ݇ܘܵܐ ܐܲܝܟ݂ ܚܕܵܐ ܒܝܼܥܬܵܐ
+# text_en = And while she was small like an egg
+1	ܘ	ܘ	CCONJ	_	_	4	cc	_	Gloss=and
+2	ܟܲܕ	ܟܲܕ	SCONJ	_	_	4	mark	_	Gloss=while
+3	ܙܥܘܿܪܬܵܐ	ܙܥܘܿܪܬܵܐ	ADJ	_	Gender=Fem|Number=Sing	4	xcomp	_	Gloss=small
+4	ܗ݇ܘܵܐ	ܗܵܘܹܐ	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=was
+5	ܐܲܝܟ݂	ܐܲܝܟ݂	ADP	_	_	7	case	_	Gloss=like
+6	ܚܕܵܐ	ܚܕܵܐ	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Gloss=an
+7	ܒܝܼܥܬܵܐ	ܒܝܼܥܬܵܐ	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	Gloss=egg
+
+# sent_id = 6
+# text = ܒܥܹܠܵܗ̇ ܕܗܵܘܝܼܵܐ ܒܕܘܼܡܝܹܗ ܓܘܼܪܬܵܐ.
+# text_en = She wanted to appear large.
+1	ܒܥܹܠܵܗ̇	ܒܵܥܹܐ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_wanted
+2	ܕ	ܕ	SCONJ	_	_	3	mark	_	Gloss=that
+3	ܗܵܘܝܼܵܐ	ܗܵܘܹܐ	VERB	_	Gender=Fem|Number=Sing|Person=3|VerbForm=Part	1	xcomp	_	Gloss=appear
+4	ܒ	ܒ	ADP	_	_	5	case	_	Gloss=in
+5	ܕܘܼܡܝܹܗ	ܕܘܼܡܝܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	Gloss=his_likeness
+6	ܓܘܼܪܬܵܐ	ܓܘܼܪܬܵܐ	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	Gloss=large
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 7
+# text = ܦܫܸܩܠܵܗ̇ ܢܦܸܚܠܵܗ̇ ܦܬܹܠܵܗ̇ ܙܸܪܵܗ̇
+# text_en = She stretched, she puffed, she twisted herself
+1	ܦܫܸܩܠܵܗ̇	ܦܵܫܹܩ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_stretched
+2	ܢܦܸܚܠܵܗ̇	ܢܵܦܹܚ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	Gloss=she_puffed
+3	ܦܬܹܠܵܗ̇	ܦܵܬܹܠ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	Gloss=she_twisted
+4	ܙܸܪܵܗ̇	ܙܸܪܵܐ	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes	3	obj	_	Gloss=herself
+
+# sent_id = 8
+# text = ܘܩܵܐ ܚܲܒ݂ܹܪܬܵܗ̇ ( ܓܲܫܸܩܝ : ܐ݇ܡܸܪܵܗ̇ :
+# text_en = And to her friend (look: she said:
+1	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
+2	ܩܵܐ	ܩܵܐ	ADP	_	_	3	case	_	Gloss=to
+3	ܚܲܒ݂ܹܪܬܵܗ̇	ܚܲܒ݂ܪܵܐ	NOUN	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes	5	obl	_	Gloss=her_friend
+4	(	(	PUNCT	_	_	5	punct	_	_
+5	ܓܲܫܸܩܝ	ܓܵܫܹܩ	VERB	_	Gender=Fem|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Gloss=look
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	ܐ݇ܡܸܪܵܗ̇	ܐܵܡܹܪ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	Gloss=she_said
+8	:	:	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 9
+# text = ( ܚܲܕ ܨܦܵܝ ܓܲܫܸܩܝ ܚܙܝܼ ܒܲܣܵܐ ܝܠܵܗ̇؟
+# text_en = (Take a good look, see, is it enough?
+1	(	(	PUNCT	_	_	4	punct	_	_
+2	ܚܲܕ	ܚܲܕ	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Gloss=a
+3	ܨܦܵܝ	ܨܦܵܝ	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Gloss=good_look
+4	ܓܲܫܸܩܝ	ܓܵܫܹܩ	VERB	_	Gender=Fem|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Gloss=look
+5	ܚܙܝܼ	ܚܵܙܹܐ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	4	parataxis	_	Gloss=see
+6	ܒܲܣܵܐ	ܒܲܣܵܐ	ADJ	_	_	7	nsubj	_	Gloss=enough
+7	ܝܠܵܗ̇	ܗܵܘܹܐ	AUX	_	Gender=Fem|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	Gloss=is_it
+8	؟	؟	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 10
+# text = ܝܵܐ ܐܸܢ ܒܲܠܟܹܐ ܚܲܟ̰ܵܐ ܦܸܫܠܵܗ̇؟ )
+# text_en = Or maybe a little she remained? )
+1	ܝܵܐ	ܝܵܐ	CCONJ	_	_	5	cc	_	Gloss=or
+2	ܐܸܢ	ܐܸܢ	SCONJ	_	_	5	mark	_	Gloss=if
+3	ܒܲܠܟܹܐ	ܒܲܠܟܹܐ	ADV	_	_	5	advmod	_	Gloss=maybe
+4	ܚܲܟ̰ܵܐ	ܚܲܟ̰ܵܐ	ADV	_	_	5	advmod	_	Gloss=a_little
+5	ܦܸܫܠܵܗ̇	ܦܵܐܹܫ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_remained
+6	؟	؟	PUNCT	_	_	5	punct	_	_
+7	)	)	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 11
+# text = ܗܵܠܵܐ ܐܲܝܟܵܐ ܝܘܲܬܝ ܗܵܐ ܚܙܝܼ ܡܸܕܪܹܐ
+# text_en = Until where you are, look again
+1	ܗܵܠܵܐ	ܗܵܠܵܐ	ADP	_	_	2	case	_	Gloss=until
+2	ܐܲܝܟܵܐ	ܐܲܝܟܵܐ	ADV	_	PronType=Int	3	advmod	_	Gloss=where
+3	ܝܘܲܬܝ	ܗܵܘܹܐ	AUX	_	Gender=Fem|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=you_are
+4	ܗܵܐ	ܗܵܐ	PART	_	_	5	advmod	_	Gloss=behold
+5	ܚܙܝܼ	ܚܵܙܹܐ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	Gloss=see
+6	ܡܸܕܪܹܐ	ܡܸܕܪܹܐ	ADV	_	_	5	advmod	_	Gloss=again
+
+# sent_id = 12
+# text = ܟ̰ܸܡ ܪܸܚܩܵܐ ܝܘܲܬܝ ܓܲܫܸܩ ܡܸܕܪܹܐ.
+# text_en = Still far you are, look again.
+1	ܟ̰ܸܡ	ܟ̰ܸܡ	ADV	_	_	2	advmod	_	Gloss=still
+2	ܪܸܚܩܵܐ	ܪܸܚܩܵܐ	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	Gloss=far
+3	ܝܘܲܬܝ	ܗܵܘܹܐ	AUX	_	Gender=Fem|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=you_are
+4	ܓܲܫܸܩ	ܓܵܫܹܩ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	Gloss=look
+5	ܡܸܕܪܹܐ	ܡܸܕܪܹܐ	ADV	_	_	4	advmod	_	Gloss=again
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 13
+# text = ܐܘܼܚܟ̰ܵܐ ܚܠܸܨܠܵܗ̇ ܘܚܲܝܠܵܐ ܡܚܹܠܵܗ̇
+# text_en = Thus she strained and exerted strength
+1	ܐܘܼܚܟ̰ܵܐ	ܐܘܼܚܟ̰ܵܐ	ADV	_	_	2	advmod	_	Gloss=thus
+2	ܚܠܸܨܠܵܗ̇	ܚܵܠܹܨ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_strained
+3	ܘ	ܘ	CCONJ	_	_	5	cc	_	Gloss=and
+4	ܚܲܝܠܵܐ	ܚܲܝܠܵܐ	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Gloss=strength
+5	ܡܚܹܠܵܗ̇	ܡܵܚܹܐ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	Gloss=she_struck
+
+# sent_id = 14
+# text = ܗ̇ܝ ܡܸܣܟܹܢܬܵܐ ܗܲܠ ܕܸܦܩܸܠܵܗ̇.
+# text_en = That poor one until she burst.
+1	ܗ̇ܝ	ܗܵܘ	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	Gloss=that
+2	ܡܸܣܟܹܢܬܵܐ	ܡܸܣܟܹܢܵܐ	ADJ	_	Gender=Fem|Number=Sing	5	nsubj	_	Gloss=poor_one
+3	ܗܲܠ	ܗܲܠ	ADP	_	_	5	mark	_	Gloss=until
+4	ܕ	ܕ	SCONJ	_	_	5	mark	_	Gloss=that
+5	ܦܩܸܠܵܗ̇	ܦܵܩܹܐ	VERB	_	Gender=Fem|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=she_burst
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 15
+# text = ܟܠ ܡܵܢ ܕܠܵܒ݂ܹܫ ܦܸܪ̈ܩܹܐ ܚܲܕܬܹ̈ܐ
+# text_en = Everyone who wears new wool/cotton clothes
+1	ܟܠ	ܟܠ	DET	_	PronType=Tot	2	det	_	Gloss=every
+2	ܡܵܢ	ܡܵܢ	PRON	_	PronType=Rel	4	nsubj	_	Gloss=who
+3	ܕ	ܕ	SCONJ	_	_	4	mark	_	Gloss=that
+4	ܠܵܒ݂ܹܫ	ܠܵܒ݂ܹܫ	VERB	_	Gender=Masc|Number=Sing|Person=3|VerbForm=Part	0	root	_	Gloss=wears
+5	ܦܸܪ̈ܩܹܐ	ܦܸܪܩܵܐ	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	Gloss=wool/cotton_clothes
+6	ܚܲܕܬܹ̈ܐ	ܚܲܕܬܵܐ	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	Gloss=new
+
+# sent_id = 16
+# text = ܠܥܸܠ ܡ݂ܢ ܚܲܝܠܹܗ ܐܵܟ݂ܸܠ ܘܫܵܬܹܐ
+# text_en = Beyond his strength eats and drinks
+1	ܠܥܸܠ	ܠܥܸܠ	ADP	_	_	3	case	_	Gloss=above
+2	ܡ݂ܢ	ܡܸܢ	ADP	_	_	3	case	_	Gloss=from
+3	ܚܲܝܠܹܗ	ܚܲܝܠܵܐ	NOUN	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes	4	obl	_	Gloss=his_strength
+4	ܐܵܟ݂ܸܠ	ܐܵܟ݂ܹܠ	VERB	_	Gender=Masc|Number=Sing|Person=3|VerbForm=Part	0	root	_	Gloss=eats
+5	ܘ	ܘ	CCONJ	_	_	6	cc	_	Gloss=and
+6	ܫܵܬܹܐ	ܫܵܬܹܐ	VERB	_	Gender=Masc|Number=Sing|Person=3|VerbForm=Part	4	conj	_	Gloss=drinks
+
+# sent_id = 17
+# text = ܐܝܼܬ ܠܹܗ ܛܘܼܦ̮ܣܵܐ ܒܐܵܗܵܐ ܦܸܩܵܐ
+# text_en = Has an example in this frog
+1	ܐܝܼܬ	ܐܝܼܬ	VERB	_	_	0	root	_	Gloss=there_is
+2	ܠܹܗ	ܗܘ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	Gloss=to_him
+3	ܛܘܼܦ̮ܣܵܐ	ܛܘܼܦ̮ܣܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	Gloss=example
+4	ܒ	ܒ	ADP	_	_	6	case	_	Gloss=in
+5	ܐܵܗܵܐ	ܐܵܗܵܐ	DET	_	Definite=Def|PronType=Dem	6	det	_	Gloss=this
+6	ܦܸܩܵܐ	ܦܸܩܥܵܐ	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	Gloss=frog
+
+# sent_id = 18
+# text = ܝܵܐ ܩܵܪܝܵܢܵܐ ܬܲܚܡܸܢ ܒܫܸܬܩܵܐ.
+# text_en = O reader, think in silence.
+1	ܝܵܐ	ܝܵܐ	PART	_	_	2	advmod	_	Gloss=O
+2	ܩܵܪܝܵܢܵܐ	ܩܵܪܝܵܢܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Gloss=reader
+3	ܬܲܚܡܸܢ	ܬܲܚܡܹܢ	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	Gloss=think
+4	ܒ	ܒ	ADP	_	_	5	case	_	Gloss=in
+5	ܫܸܬܩܵܐ	ܫܸܬܩܵܐ	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	Gloss=silence
+6	.	.	PUNCT	_	_	3	punct	_	_
+
