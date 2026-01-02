@@ -90,14 +90,49 @@ The collection of words, phrases, or symbols in a specific language. Includes th
 	        1. Both words have the same letters
 	        2. No contradictions between the diacritics of the same, pair-wise, letters of these words
 3. **Grammar annotation** 
-    * Propose using the [Universal Dependencies (UD) Framework](https://universaldependencies.org/) as it is universally used and applicable across different human languages
+    * Propose using the [Universal Dependencies (UD) Framework](https://universaldependencies.org/) (version 2) as it is universally used and applicable across different human languages    
+    * Use [UD for Assyrian](https://github.com/UniversalDependencies/docs/blob/pages-source/_aii/index.md) as a starting point, namely:
+        * **Tokenization and Word Segmentation**
+            - Words are generally delimited by whitespace or punctuation.
+            - Punctuation marks are attached to the neighboring word. We always tokenize them as separate tokens.
+            - Coordinating conjunction and prepositions are separated from the words that follows them in a sentence.
+            - Multiword tokens are not used in Assyrian.
+        * **Morphology**
+            - Tags
+                1. The tags NUM, INTJ, SYM, and X are not used.
+                2. Certain words like “ܒܜ , ܩܡ ,ܟܝ , ܚܘܫ , ܫܘܩ” are tagged as PART and have a dependency relation as aux. Together with the following VERB, these words change the verb tense.
+            - Features
+                1. Nominal words (NOUN, PROPN and PRON) have an inherent Gender feature with values Masc or Fem.
+                     - The following parts of speech inflect for Gender because they must agree with nouns: ADJ, DET, VERB, AUX.
+                2. Number has 2 possible values: Sing and Plur.
+                3. Verbs inflect for Gender, Number, Person, Tense and Mood. There are two types of verb forms (VerbForm): the finite verb (Fin) and the participle (Part).
+                     - Voice is marked only for passive forms; we do not use Voice=Act.
+                4. PronType is used with pronouns (PRON) and determiners (DET).
+                5. The Poss feature marks possessive personal pronouns.
+                6. Person is a lexical feature of personal pronouns (PRON) and has three values, 1, 2 and 3.
+                     - As a cross-reference to subject, person is also marked on finite verbs (VERB, AUX).
+		* **Core Arguments, Oblique Arguments and Adjuncts**
+      		- Syntax
+    			1. There are no morphological cases.
+        		2. Nominal subject is a bare noun phrase. It typically precedes the verb. Its Person, Number and Gender are cross-referenced by the verb.
+          		3. Nominal object is a bare noun phrase or a prepositional phrase. It typically follows the verb.
+		* **Non-verbal Clauses**
+    		- The copula verb ܗܵܘܹܐ (be) is used in
+
+		* **Relations Overview**
+			- The following relation subtypes are used in Assyrian:
+        		1. acl:relcl for relative clauses
+          		2. aux:poss
+            	3. nmod:poss
+			- The following relation types are not used in Assyrian at all: expl, dislocated, vocative, appos, nummod, clf, fixed, flat, list, orphan, goeswith, reparandum, dep
+
 4. **File Format**
-    * Propose using the [CoNLL-U Format](https://universaldependencies.org/format.html). 
+    * Propose using the [CoNLL-U Format](https://universaldependencies.org/format.html).
+    * Validate ConLLU files using the [UD Validation Tools](https://github.com/UniversalDependencies/tools/).
     * Annotations are encoded in plain text files (**UTF-8**, **normalized to NFC**, **using only the LF character as line break, including an LF character at the end of file**) with three types of lines:
         - Word lines containing the annotation of a word/token/node in 10 fields separated by single tab characters; see below
         - Blank lines marking sentence boundaries. The last line of each sentence is a blank line.
         - Sentence-level comments starting with hash (#). Comment lines occur at the beginning of sentences, before word lines.
-
 
 	**ID**: Word index, integer starting at 1 for each new sentence; may be a range for multiword tokens; may be a decimal number for empty nodes (decimal numbers can be lower than 1 but must be greater than 0).
 
