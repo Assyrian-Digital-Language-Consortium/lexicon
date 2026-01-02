@@ -90,7 +90,8 @@ The collection of words, phrases, or symbols in a specific language. Includes th
 	        1. Both words have the same letters
 	        2. No contradictions between the diacritics of the same, pair-wise, letters of these words
 3. **Grammar annotation** 
-    * Propose using the [Universal Dependencies (UD) Framework](https://universaldependencies.org/) (version 2) as it is universally used and applicable across different human languages    
+    * Propose using the [Universal Dependencies (UD) Framework](https://universaldependencies.org/) (version 2) as it is universally used and applicable across different human languages
+    * Use [UD Assyrian Treebank](https://universaldependencies.org/treebanks/aii_as/index.html) as a validated example.  
     * Use [UD for Assyrian](https://github.com/UniversalDependencies/docs/blob/pages-source/_aii/index.md) as a starting point, namely:
         * **Tokenization and Word Segmentation**
             - Words are generally delimited by whitespace or punctuation.
